@@ -1,6 +1,36 @@
 # Matrix99
 Matrix99 - seq rand gen matrix for compilation perl
 
+More information about the topic might be found online.
+under sequential generation and random organics
+
+**meaning: as an example generation of random numbers through sequential logic in mathematics.
+```perl
+
+for a &&|| A add function()
+for b ||&& B minus function()
+for c andor C divide function()
+
+BEGIN: <TEMP>
+
+main controller
+main <MENU>
+# A.) for example() meaning parameter function call to system.
+# B.) for example(parameter) function call to system.
+# C.) for eexample(parameter(function)) call to system.
+# D.) for example(parameter(function(call))) to system.
+# E.) for example(parameter(function(call(to system.))))
+<CONTAINER>
+# What's inside.
+# TOPICS ITEMS
+# MAIN MENU
+# CARGO
+# COMPILER
+<END OF TRANSMISSION>
+
+
+```
+
 ## Welcome 
 
 ### The following system is for our @COPY.
@@ -46,11 +76,11 @@ $$ = ctrl scalar
 (( = paren statement
 )) = close statement paren
 
- +11
-+22 +33 ... sum of 55))
-+44 +55 ... sum of 99))
-+66 +77 ... sum of 143))
-+88 +99 ... sum of 187))
+   11
+22 + 33 ... sum of 55))
+44 + 55 ... sum of 99))
+66 + 77 ... sum of 143))
+88 + 99 ... sum of 187))
 
 -11-------------------------!!
   -22------------------------@@
