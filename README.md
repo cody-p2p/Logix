@@ -142,5 +142,5 @@ export EXFIL main( parameter :select: controller.pm )
 for while statement true *.exe -> project runtime && show( output->goto main menu legacy screen ) || use !exit
 -EOFTL ( error messages on main console drive unit )
 Edit"FTL::ENGINE.pl"
-Copyright © 2024 - WordPress Theme by CreativeThemes
+Copyright © 2024
 ```
