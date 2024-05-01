@@ -97,23 +97,10 @@ $$: Control scalar
 Matrix Generation: The script then seems to generate a matrix with certain patterns and sequences, including sums.
 Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
 
-Skip to content
-About WordPress
-Mars Perserve
-Customize
-11 update available
-00 Comments in moderation
-New
-Edit Post
-Search
-Howdy, Admin
-Mars Perserve
-Mars Perserve
+### FTL::ENGINE.pl
+**AdminADMINMAY 1, 2024UNCATEGORIZED
 
-FTL::ENGINE.pl
-AdminADMINMAY 1, 2024UNCATEGORIZED
 The FTL :: ENGINE perl runtime
-
 
 ```perl
 import system from source;
@@ -134,6 +121,7 @@ BEGIN(@COPY(PARAMETER))
 END;
 EXFIL program;
 ```
+```
 Main Menu Packages
 import sys from src;
 use strict;
@@ -143,12 +131,16 @@ use strict version 1.5
 use utf8;
 BEGIN: program project main menu
 END: -eoftl
+```
+
 The next example is about controller::packages.pm a perl module.
 
-Quick Notes: version 1
+### Quick Notes: version 1
+```perl
 import from source use package main menu legacy
 export EXFIL main( parameter :select: controller.pm )
 for while statement true *.exe -> project runtime && show( output->goto main menu legacy screen ) || use !exit
 -EOFTL ( error messages on main console drive unit )
 Edit"FTL::ENGINE.pl"
 Copyright © 2024 - WordPress Theme by CreativeThemes
+```
