@@ -3,8 +3,8 @@ Matrix99 - seq rand gen matrix for compilation perl
 
 ## Welcome 
 
-## The following system is for our @COPY.
-
+### The following system is for our @COPY.
+### Example script
 ```perl
 
 TOPIC
@@ -45,6 +45,23 @@ $$ = ctrl scalar
 ** = ctrl permission accessor 
 (( = paren statement
 )) = close statement paren
+
+ +11
++22 +33 ... sum of 55))
++44 +55 ... sum of 99))
++66 +77 ... sum of 143))
++88 +99 ... sum of 187))
+
+-11-------------------------!!
+  -22------------------------@@
+    -33------------------------##
+      -44------------------------$$
+        -55------------------------%%
+          -66------------------------^^
+            -77------------------------&&
+              -88------------------------**
+                -99------------------------((
+
 
 ```
 EOL
