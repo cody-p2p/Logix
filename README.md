@@ -98,7 +98,6 @@ Matrix Generation: The script then seems to generate a matrix with certain patte
 Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
 
 ### FTL::ENGINE.pl
-**AdminADMINMAY 1, 2024UNCATEGORIZED
 
 The FTL :: ENGINE perl runtime
 
@@ -136,6 +135,7 @@ END: -eoftl
 The next example is about controller::packages.pm a perl module.
 
 ### Quick Notes: version 1
+
 ```perl
 import from source use package main menu legacy
 export EXFIL main( parameter :select: controller.pm )
