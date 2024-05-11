@@ -54,51 +54,51 @@ $$: Control scalar
 
 Matrix Generation: The script then seems to generate a matrix with certain patterns and sequences, including sums.
 Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
+fx( open system )
+array[@ID: service connected ]
+@CODE{ sub connect online {...} }
+TAG<ID_KEY_TEMP>
+|| or
+&&|| and or
+?? query question
+** permission accessor
+&& runtime authenticator
+^^ peek serial version lookup
+%% hash array table DATA peek
+$$ scalar string verification
+## comment controller
+@@ id additional user
+!! repeat command
 
-### FTL::ENGINE.pl
+$!=declare
+    for EXAMPLE: set $! # declare statement 
+        Sample:  @id set $! set ID set
 
-The FTL :: ENGINE perl runtime
+$@=verify
+    for EXAMPLE: $! >goto $@ = { seq...gen }
 
-```perl
-import system from source;
-import index connect select system;
-use utf8;
-use warnings;
+$#=ctrl
+    for EXAMPLE: $# command notes
 
-export program.ext -> (*.exe)
-loading project ...
-BEGIN(@COPY(PARAMETER))
-# 123456789
-# 987654321
-# index > connect( select :: packages user control )
-# :select: packages::controller.pm
-# if not available create touch controller::packages.pm
-# return 0;
-# return 1;
-END;
-EXFIL program;
-```
-```
-Main Menu Packages
-import sys from src;
-use strict;
-use warnings;
-use copy::packages.pm
-use strict version 1.5
-use utf8;
-BEGIN: program project main menu
-END: -eoftl
-```
+$$=scalar
+    for EXAMPLE: $$authenticator( parameter open @ID )
 
-The next example is about controller::packages.pm a perl module.
+$%=hash
+    for EXAMPLE: $%DATA_LIST_DATA
 
-### Quick Notes: version 1
+$^=peek
+    for EXAMPLE: $^peek_serial_DSN_DATA_QUERY
 
-```perl
-import from source use package main menu legacy
-export EXFIL main( parameter :select: controller.pm )
-for while statement true *.exe -> project runtime && show( output->goto main menu legacy screen ) || use !exit
--EOFTL ( error messages on main console drive unit )
-Edit"FTL::ENGINE.pl"
-Copyright © 2024
-```
+$&=runtime
+    for EXAMPLE: $& runtime authenticator($& >goto command )
+
+$*=permission
+    for  EXAMPLE: $* in $! >goto command {set|command|code}
+
+$(=open statement 
+    for EXAMPLE: ( ref: ~ ! @ # $ % ^ & * ( ) )
+
+$)=closed statement
+    for ALL statement to work a statment must be addressed.
+
+    for seq gen str $( $! $@ $# $$ $% $^ $& $* $( $)
