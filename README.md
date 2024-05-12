@@ -55,7 +55,7 @@ $$: Control scalar
 Matrix Generation: The script then seems to generate a matrix with certain patterns and sequences, including sums.
 Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
 
-```
+```perl
 fx( open system )
 array[@ID: service connected ]
 @CODE{ sub connect online {...} }
@@ -72,7 +72,7 @@ $$ scalar string verification
 @@ id additional user
 !! repeat command
 ```
-
+```perl
 $!=declare
     for EXAMPLE: set $! # declare statement 
         Sample:  @id set $! set ID set
@@ -105,3 +105,4 @@ $)=closed statement
     for ALL statement to work a statment must be addressed.
 
     for seq gen str $( $! $@ $# $$ $% $^ $& $* $( $)
+```
