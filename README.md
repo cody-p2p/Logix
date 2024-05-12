@@ -125,33 +125,32 @@ $$ 'scalar string verification'
 @@ 'id additional user'
 !! 'repeat command'
 ```
-```perl
     use english;
 
-$!=declare
+'$!=declare'
     for EXAMPLE: set '$!' # declare statement 
         Sample:  @id set '$!' set 'ID' set
-$@=verify
+'$@=verify'
     for EXAMPLE: '$!' >goto '$@' = { 'seq...gen' }
-$#=ctrl
+        Sample: $! $@user fetch( command >goto next available @CONDITIONAL; )
+'$#=ctrl'
     for EXAMPLE: '$#' // command notes //
-$$=scalar
+'$$=scalar'
     for EXAMPLE: $$authenticator( 'parameter' open @ID )
-$%=hash
+'$%=hash'
     for EXAMPLE: $%DATA_LIST_DATA
-$^=peek
+'$^=peek'
     for EXAMPLE: $^peek_serial_DSN_DATA_QUERY
-$&=runtime
+'$&=runtime'
     for EXAMPLE: '$&' runtime authenticator('$&' >goto command )
-$*=permission
+'$*=permission'
     for  EXAMPLE: '$*' in '$!' >goto 'command' {'set|command|code'}
 
-$(=open 'statement' 
+'$(=open 'statement' n\'
     for EXAMPLE: import system index 
     PAREN( ref: '~ ! @ # $ % ^ & * ( )' )
 
-$)=closed statement
-    for ALL statement to work a statement must be addressed.
+'$)=closed statement'
+    for ALL statement(s) to work a statement must be 'addressed.'
 
     for seq gen str '$(' '$!' '$@' '$#' '$$' '$%' '$^' '$&' '$*' '$(' '$)'
-```
