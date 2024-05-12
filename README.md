@@ -1,14 +1,15 @@
 ```perl
-! @ # $ % ^ & * ( !)
-!! !@ !# !$ !% !^ !& !* !( @)
-@! @@ @# @$ @% @^ @& @* @( #)
-#! #@ ## #$ #% #^ #& #* #( $)
-$! $@ $# $$ $% $^ $& $* $( %)
-%! %@ %# %$ %% %^ %& %* %( ^)
-^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)
-&! &@ &# &$ &% &^ && &* &( *)
-*! *@ *# *$ *% *^ *& ** *( ()
-(! (@ (# ($ (% (^ (& (* (( !))
+
+"! @ # $ % ^ & * ( !)"
+"!! !@ !# !$ !% !^ !& !* !( @)"
+"@! @@ @# @$ @% @^ @& @* @( #)"
+"#! #@ ## #$ #% #^ #& #* #( $)"
+"$! $@ $# $$ $% $^ $& $* $( %)"
+"%! %@ %# %$ %% %^ %& %* %( ^)"
+"^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)"
+"&! &@ &# &$ &% &^ && &* &( *)"
+"*! *@ *# *$ *% *^ *& ** *( ()"
+"(! (@ (# ($ (% (^ (& (* (( !))"
 
 !! = repeat command
 @@ = add id
@@ -22,23 +23,6 @@ $$ = ctrl scalar
 )) = close statement paren
 
 ```
-TOPIC: This seems to be a header indicating the topic of the script, which appears to be about generating matrices in Perl.
-MAIN MENU: This section seems to outline the main menu or structure of the script.
-Control Statements: These are commands or directives used within the script to control its behavior. Here are the ones 
-
-```perl
-listed:
-$!='seq 0': Assigns the sequence "seq 0" to the variable $!
-$@='seq 1': Assigns the sequence "seq 1" to the variable $@
-$#='seq 2': Assigns the sequence "seq 2" to the variable $#
-$$='seq 3': Assigns the sequence "seq 3" to the variable $$
-$%='seq 4': Assigns the sequence "seq 4" to the variable $%
-$^='seq 5': Assigns the sequence "seq 5" to the variable $^
-$&='seq 6': Assigns the sequence "seq 6" to the variable $&
-$*='seq 7': Assigns the sequence "seq 7" to the variable $*
-$(='seq 8': Assigns the sequence "seq 8" to the variable $(
-```
-Special Control Sequences: These sequences seem to have special meanings or actions within the script:
 ```
 !!: Repeat command
 @@: Add ID
@@ -51,94 +35,68 @@ $$: Control scalar
 ((: Paren statement
 )): Close statement paren
 ```
-
-Matrix Generation: The script then seems to generate a matrix with certain patterns and sequences, including sums.
-Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
-
 ```perl
-! @ # $ % ^ & * ( !)
-!! !@ !# !$ !% !^ !& !* !( @)
-@! @@ @# @$ @% @^ @& @* @( #)
-#! #@ ## #$ #% #^ #& #* #( $)
-$! $@ $# $$ $% $^ $& $* $( %)
-%! %@ %# %$ %% %^ %& %* %( ^)
-^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)
-&! &@ &# &$ &% &^ && &* &( *)
-*! *@ *# *$ *% *^ *& ** *( ()
-(! (@ (# ($ (% (^ (& (* (( !))
+##
+#!/perl
+####
+import open index select system connect;
+####
 
-!! = repeat command
-@@ = add id
-## = ctrl comment
-$$ = ctrl scalar 
-%% = ctrl split
-^^ = ctrl peek
-&& = ctrl runtime
-** = ctrl permission accessor 
-(( = paren statement
-)) = close statement paren
+qw('readonly');
 
-```
-```perl
-listed:
-$!='seq 0': Assigns the sequence "seq 0" to the variable $!
-$@='seq 1': Assigns the sequence "seq 1" to the variable $@
-$#='seq 2': Assigns the sequence "seq 2" to the variable $#
-$$='seq 3': Assigns the sequence "seq 3" to the variable $$
-$%='seq 4': Assigns the sequence "seq 4" to the variable $%
-$^='seq 5': Assigns the sequence "seq 5" to the variable $^
-$&='seq 6': Assigns the sequence "seq 6" to the variable $&
-$*='seq 7': Assigns the sequence "seq 7" to the variable $*
-$(='seq 8': Assigns the sequence "seq 8" to the variable $(
-```
-Special Control Sequences: These sequences seem to have special meanings or actions within the script:
-```
-!!: Repeat command
-@@: Add ID
-##: Control comment
-$$: Control scalar
-%%: Control split
-^^: Control peek
-&&: Control runtime
-**: Control permission accessor
-((: Paren statement
-)): Close statement paren
-```
+use english;
+use warnings;
+use charset utf8;
+use console::debugger;
 
-Matrix Generation: The script then seems to generate a matrix with certain patterns and sequences, including sums.
-Explanation: The script generates a matrix with various sequences and control statements, likely for computational purposes or to demonstrate certain Perl functionalities.
 
-```perl
-use fx( open system )
-fetch() @array[@ID: 'service connected' ]
-via() @CODE{ sub connect online {...} }
-service() TAG<ID_KEY_TEMP>
-test1 || test2
-ab &&|| aa and or
-?? 'query' 'question'
-** 'permission accessor'
-&& 'runtime authenticator'
-^^ 'peek serial version lookup'
-%% 'hash array table DATA peek'
-$$ 'scalar string verification'
-## 'comment controller'
-@@ 'id additional user'
-!! 'repeat command'
-```
+'! @ # $ % ^ & * ( !)'
+'!! !@ !# !$ !% !^ !& !* !( @)'
+'@! @@ @# @$ @% @^ @& @* @( #)'
+'#! #@ ## #$ #% #^ #& #* #( $)'
+'$! $@ $# $$ $% $^ $& $* $( %)'
+'%! %@ %# %$ %% %^ %& %* %( ^)'
+'^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)'
+'&! &@ &# &$ &% &^ && &* &( *)'
+'*! *@ *# *$ *% *^ *& ** *( ()'
+'(! (@ (# ($ (% (^ (& (* (( !))'
+
+'!!' = repeat command
+'@@' = add id
+'##' = ctrl comment
+'$$' = ctrl scalar 
+'%%' = ctrl split
+'^^' = ctrl peek
+'&&' = ctrl runtime
+'**' = ctrl permission accessor 
+'((' = paren statement
+'))' = close statement paren
+
+!!:= 'Repeat command'
+@@:= 'Add ID'
+##:= 'Control comment'
+$$:= 'Control scalar'
+%%:= 'Control split'
+^^:= 'Control peek'
+&&:= 'Control runtime'
+**:= 'Control permission accessor'
+((:= 'Paren statement'
+)):= 'Close statement paren'
+
     use english;
 
 '$!=declare'
     for EXAMPLE: set '$!' # declare statement 
-        Sample:  @id set '$!' set 'ID' set
+        Sample:  @id set '$!' set 'ID' set command|@SET|confirm_chain;
 '$@=verify'
     for EXAMPLE: '$!' >goto '$@' = { 'seq...gen' }
         Sample: $! $@user fetch( command >goto next available @CONDITIONAL; )
 '$#=ctrl'
-    for EXAMPLE: '$#' // command notes //
+    for EXAMPLE: '$#' // command notes // CTRL command comments
 '$$=scalar'
-    for EXAMPLE: $$authenticator( 'parameter' open @ID )
+    for EXAMPLE: $$authenticator( 'parameter' open @ID user namespace )
 '$%=hash'
-    for EXAMPLE: $%DATA_LIST_DATA
+    for EXAMPLE: $%DATA_LIST_DATA[ set $1 > $2 ]
 '$^=peek'
     for EXAMPLE: $^peek_serial_DSN_DATA_QUERY
 '$&=runtime'
@@ -147,10 +105,12 @@ $$ 'scalar string verification'
     for  EXAMPLE: '$*' in '$!' >goto 'command' {'set|command|code'}
 
 '$(=open 'statement' n\'
-    for EXAMPLE: import system index 
+    for EXAMPLE: import system >goto open command(:: select > connect index|source>confirm??) 
+    
+    sample: connect index from source;
     PAREN( ref: '~ ! @ # $ % ^ & * ( )' )
 
 '$)=closed statement'
     for ALL statement(s) to work a statement must be 'addressed.'
 
-    for seq gen str '$(' '$!' '$@' '$#' '$$' '$%' '$^' '$&' '$*' '$(' '$)'
+    for seq gen str '$(' '$!' '$@' '$#' '$$' '$%' '$^' '$&' '$*' '$(' '$)';
