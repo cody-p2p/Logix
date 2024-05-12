@@ -1,3 +1,10 @@
+```
+
+Date: Saturday, May 11, 2024 8:27:54 PM
+Author: Cody James
+
+```
+
 ## Welcome users 
 ### Updated Information
 
@@ -6,7 +13,7 @@ If you have `any problems with`+ `the code` here-in.
 
 Please send a `pr` Request to `the project` or `build/fork` your own. 
 
-Use at own risk! 
+`Use at own risk!`
 
 for my -/+> touch "Code/source.pm"
 
@@ -22,20 +29,17 @@ for my -/+> touch "Code/source.pm"
 - OFFLINE/email
 
 
-
-
-
 ##  Perl Shell Code Hash
 ### Perl + Shell + Code + Hash
 
-is the story about system logix,
-a small time up and commer ready to rock the code console
-a young console cowboy ready for action with his peacemaker-compiler
-langauge built with features like system mechanics and sequecial logic
-a number system of truth and what will set you free from the trap that 
-is the computer programming coding and or prefixed to the langauge.
+is the story about `system` logix,
+a small `time` up and commer `ready` to rock the `code` console
+a young `console` cowboy `ready for` action with his `peacemaker-compiler`
+`langauge` built with `features` like `system mechanics` and `sequecial logic`
+a `number system` of `truth`;
 
 
+Thanks for reading! [ `...` ]
 
 ```perl
 
@@ -46,7 +50,7 @@ import sys from src2;
 use shell_code_perl_hash;
 
 use read;
-    file( function call res req response callback )
+    file( function(call(res req(response(callback)))) )
 
     for eq seq gen str '$(' '$!' '$@' '$#' '$$' '$%' '$^' '$&' '$*' '$(' '$)';
 
@@ -54,7 +58,7 @@ use read;
     for EXAMPLE: '$!' >goto '$@' = { 'seq...gen' }
         Sample: $! $@user fetch( my $command >goto next available @CONDITIONAL; )
 '$#=ctrl'
-    for EXAMPLE: IF '$#' ELSE // my $command notes // CTRL my $command comments
+    for EXAMPLE: IF '$#' ELSE my $command notes CTRL my $command comments
         sample: while $! TRUE use $@user fetch( $$command )
         
         continue wait 1000ms sub &command{...}
@@ -63,7 +67,7 @@ use read;
     for EXAMPLE: use  $$authenticator( 'parameter' open @ID user namespace )
 
 '$%=hash'
-    for EXAMPLE: call() $%DATA_LIST_DATA[ set $1 > $2 = $3 set $4 {my $command|test|confirm >> controller }]
+    for EXAMPLE: call() $%DATA_LIST_DATA[ set $1 > $2 = $3 set $4 {our $command|test|confirm >> controller }]
 
 '$^=peek'
     for EXAMPLE: look(display > legacy ) $^peek_serial_DSN_DATA_QUERY
@@ -74,7 +78,7 @@ use read;
 '$*=permission'
     for  EXAMPLE: '$*' in '$!' >goto 'my $command' {'set|my $command|code'}
 
-'$(=open 'statement' n\'
+'$(=open statement'
     for EXAMPLE: import system >goto open my $command(:: select > connect index|source>confirm??) 
     
     sample: connect index from source;
@@ -84,33 +88,39 @@ use read;
 
 '$)=closed statement'
 
-'!!' = 'ctrl repeat my $command'
-'@@' = 'ctrl add id'
-'##' = 'ctrl comment'
-'$$' = 'ctrl scalar' 
-'%%' = 'ctrl split'
-'^^' = 'ctrl peek'
-'&&' = 'ctrl runtime'
-'**' = 'ctrl permission accessor' 
-'((' = 'ctrl paren statement'
-'))' = 'ctrl close statement paren'
+'!!' = 'ctrl* repeat my $command'               '!! -> $11'
+'@@' = 'ctrl* add id my $command'                  '@@ -> $22'
+'##' = 'ctrl* comment  my $command'                  '## -> $33'
+'$$' = 'ctrl* scalar  my $command'                    '$$ -> $44'
+'%%' = 'ctrl* split  my $command'                      '%% -> $55'
+'^^' = 'ctrl* peek  my $command'                        '^^ -> $66'
+'&&' = 'ctrl* runtime  my $command'                       '&& -> $77'
+'**' = 'ctrl* permission accessor  my $command'            '** -> $88'
+'((' = 'ctrl* paren statement  my $command'                 '(( -> $99'
+'))' = 'ctrl* close statement paren  my $command'             ')) -> $00'
 
-# $"! @ # $ % ^ & * ( !)";
-# $"!! !@ !# !$ !% !^ !& !* !( @)";
-# $"@! @@ @# @$ @% @^ @& @* @( #)";
-# $"#! #@ ## #$ #% #^ #& #* #( $)";
-# $"$! $@ $# $$ $% $^ $& $* $( %)";
-# $"%! %@ %# %$ %% %^ %& %* %( ^)";
-# $"^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)";
-# $"&! &@ &# &$ &% &^ && &* &( *)";
-# $"*! *@ *# *$ *% *^ *& ** *( ()";
-# $"(! (@ (# ($ (% (^ (& (* (( !))";
+```perl
+
+read::file() {
+
+ $"! @ # $ % ^ & * ( !)";
+ $"!! !@ !# !$ !% !^ !& !* !( @)";
+ $"@! @@ @# @$ @% @^ @& @* @( #)";
+ $"#! #@ ## #$ #% #^ #& #* #( $)";
+ $"$! $@ $# $$ $% $^ $& $* $( %)";
+ $"%! %@ %# %$ %% %^ %& %* %( ^)";
+ $"^! ^@ ^# ^$ ^% ^^ ^& ^* ^( &)";
+ $"&! &@ &# &$ &% &^ && &* &( *)";
+ $"*! *@ *# *$ *% *^ *& ** *( ()";
+ $"(! (@ (# ($ (% (^ (& (* (( !))";
+
+}
 
 ```
 
 ## Sub Space Message Information (SSMI)
 
-  >  for IF ALL statement(s) to work a statement must be @answered first.
+>  for IF ALL statement(s) to work a statement must be @answered first.
 
 1. The following is the whole matrix cube from 1-100 in order.
 
@@ -125,3 +135,5 @@ use read;
 - Learn about engine mechanics.
 - Learn About What makes good code function/execute.ext*
 - Practice moving sequencially inside the system generally.
+
+END OF FILE TRANSFER LINE;
