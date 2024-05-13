@@ -126,7 +126,7 @@ read::file() {
 
 2. Numbers might be simpler compiler logic. Will see down the road.
 
-3. generate logix matrix of encoding mechanics. A secret language.
+3. generate logix matrix of encoding mechanics. A secret language perhaps ?
 
 4. langauge can be abstracted through number system and thus a new form of...
     expression can be seen in the DATA.
@@ -135,5 +135,56 @@ read::file() {
 - Learn about engine mechanics.
 - Learn About What makes good code function/execute.ext*
 - Practice moving sequencially inside the system generally.
+```perlshellcodehash
 
+ref: !@#$%^&*()
+
+import system from sys;
+
+use strict;
+use warnings;
+use utf8;
+
+return 0;
+return 1;
+
+continue switch case break copy
+syscaller goto system controller
+caller $$authenticator SYSTEM CALLER
+
+BEGIN
+
+sub log10 {
+    my $n = shift;
+    return log($n)/log(10);
+}
+
+
+my @arr  = ('cat', 'dog');
+my $item = shift(@arr); # 'cat'
+
+# @arr is now ('dog');
+
+my @arr  = (undef, 'two', 'three');
+my $item = shift(@arr); # undef
+
+my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,
+    $atime,$mtime,$ctime,$blksize,$blocks)
+       = stat($filename);
+ 0 dev      device number of filesystem
+ 1 ino      inode number
+ 2 mode     file mode  (type and permissions)
+ 3 nlink    number of (hard) links to the file
+ 4 uid      numeric user ID of file's owner
+ 5 gid      numeric group ID of file's owner
+ 6 rdev     the device identifier (special files only)
+ 7 size     total size of file, in bytes
+ 8 atime    last access time in seconds since the epoch
+ 9 mtime    last modify time in seconds since the epoch
+10 ctime    inode change time in seconds since the epoch (*)
+11 blksize  preferred I/O size in bytes for interacting with the
+            file (may vary from file to file)
+12 blocks   actual number of system-specific blocks allocated
+            on disk (often, but not always, 512 bytes each)
+```
 END OF FILE TRANSFER LINE;
