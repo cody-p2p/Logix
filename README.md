@@ -1,15 +1,19 @@
-## Welcome users
-
-><b>Perl Language-ish with a thesis-on sequencial movement.</b>
-
+## Import system
+The following talking point is about assigning parameters.
 ```perl
+for while do command function( parameter );
 
 import sys from src2;
 
 use read::file.pm;
+```
+## Sequencial Generation
+All the sigils in a logical order.
 
-    for eq seq gen str '$(' '$!' '$@' '$#' '$$' '$%' '$^' '$&' '$*' '$(' '$)';
-
+```perl
+    for eq seq gen str '$(' + '$!' + '$@' + '$#' +  '$$' +  '$%' +  '$^' +  '$&' +  '$*' +  '$(' +  '$)'; 
+```
+```perl
 '$@=verify'
     for EXAMPLE: '$!' >goto '$@' = { 'seq...gen' }
         Sample: $! $@user fetch( command >goto next available @CONDITIONAL; )
@@ -26,9 +30,11 @@ use read::file.pm;
 '$*=permission'
     for  EXAMPLE: '$*' in '$!' >goto 'command' {'set|command|code'}
 
-'$(=open 'statement' n\'
-    for EXAMPLE: import system >goto open command(:: select > connect index|source>confirm??) 
-    
+'$(=open 'statement' n\''
+    for EXAMPLE: import system >goto open command(:: select > connect index|source>confirm??)
+```
+## Authentication Syntax
+```perl 
     sample: connect index from source;
     PAREN( ref: '~ ! @ # $ % ^ & * ( )' )
     AUTH( ref: "~~ !! @@@ ## $$ %% ^^ && ** (( )) ")
@@ -36,7 +42,27 @@ use read::file.pm;
 
 '$)=closed statement'
     for ALL statement(s) to work a statement must be 'addressed.'
+```
+## Confirm Sequencial Units
+Double dial parameter for controller command.
 
+   ```perl 
+    '!!' = repeat command
+    '@@' = add id
+    '##' = ctrl comment
+    '$$' = ctrl scalar 
+    '%%' = ctrl split
+    '^^' = ctrl peek
+    '&&' = ctrl runtime
+    '**' = ctrl permission accessor 
+    '((' = paren statement
+    '))' = close statement paren
+```
+
+This is a hyper cubix block
+from 1 to 100.
+
+```perl
 
 "! @ # $ % ^ & * ( !)"
 "!! !@ !# !$ !% !^ !& !* !( @)"
@@ -49,16 +75,5 @@ use read::file.pm;
 "*! *@ *# *$ *% *^ *& ** *( ()"
 "(! (@ (# ($ (% (^ (& (* (( !))"
 
-'!!' = repeat command
-'@@' = add id
-'##' = ctrl comment
-'$$' = ctrl scalar 
-'%%' = ctrl split
-'^^' = ctrl peek
-'&&' = ctrl runtime
-'**' = ctrl permission accessor 
-'((' = paren statement
-'))' = close statement paren
 ```
-
-##  End File Transfer Line
+Build a system from what you see.
